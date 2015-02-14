@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bulls and Cows</title>
+	<script src="scripts/libs/require.js" data-main="scripts/app"></script>	
+	<link href="style/style.css" rel="stylesheet" />
+</head>
+<body>
+	<h1>Bulls and Cows</h1>
+	<div id="manual">
+		<p>Discover the hidden number!</p>
+		<p>All digits in the number are different! The leading digit cannot be zero!</p>
+		<p>
+			<img src="images/bull.jpg" width="20px" />
+			Bulls = correct digit, correct position.
+		</p>
+		<p>
+			<img src="images/cow.jpg" width="20px" />
+			Cows = correct digit, wrong position.
+		</p>
+	</div>
+
+	<p>
+		Hidden number: 
+		<span id="hidden-number" class="red">????</span>
+	</p>
+
+	<span>
+		Type a number and press Enter:
+	</span>
+	<input type="text" id="input-number" >
+
+	<table>
+		<thead>
+			<tr>
+				<th colspan="4">
+					Result
+				</th>
+			</tr>
+		</thead>
+		<tbody id="container">
+			<script id="row-template" type="text/x-handlebars-template">
+				<tr class="tableRow">
+					<td>
+						{{sequenceNnumber}}
+					</td>
+					<td>
+						{{number}}
+					</td>
+					<td>
+						{{numberCows}} 
+						<img src="images/cow.jpg" width="20px" />
+					</td>
+					<td>
+						{{numberBulls}}
+						<img src="images/bull.jpg" width="20px" />
+					</td>
+				</tr>
+			</script>
+		</tbody>
+	</table>
+	<button id="btnRestart">Restart</button>
+</body>
+</html>
+
