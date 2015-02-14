@@ -40,6 +40,7 @@ define(['rowview'], function (rowview) {
 
             $('#hidden-number').text(secretNumber);
             $('#hidden-number').after($('<h1>').addClass('red').text('Congratulations!'));
+            $('#input-section').hide();
 
             initializeHistory();
         }

@@ -5,6 +5,7 @@ define(['jquery', 'result'], function ($, result) {
             generateRandomNumber();
         }
         console.log(localStorage.getItem('secretNumber'));
+        $('#input-section').show();
         result.initializeResult();
     }
 
@@ -14,6 +15,7 @@ define(['jquery', 'result'], function ($, result) {
 
         $('#hidden-number').next().remove();// remove congrats msg
         $('#hidden-number').text('????');
+        $('#input-section').show();
 
         generateRandomNumber();
         console.log(localStorage.getItem('secretNumber'));

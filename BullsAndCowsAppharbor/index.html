@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bulls and Cows</title>
+    <title>Bulls and Cows</title>
 	<script src="scripts/libs/require.js" data-main="scripts/app"></script>	
 	<link href="style/style.css" rel="stylesheet" />
 </head>
@@ -20,21 +20,24 @@
 		</p>
 	</div>
 
-	<p>
+	<div>
 		Hidden number: 
 		<span id="hidden-number" class="red">????</span>
-	</p>
+	</div>
 
-	<span>
-		Type a number and press Enter:
-	</span>
-	<input type="text" id="input-number" >
+    <div id="input-section">
+        <span>
+            Type a number and press Enter:
+        </span>
+        <input type="text" id="input-number">
+    </div>
+	
 
 	<table>
 		<thead>
 			<tr>
 				<th colspan="4">
-					Result
+					Guesses
 				</th>
 			</tr>
 		</thead>
