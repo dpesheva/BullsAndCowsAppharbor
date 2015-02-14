@@ -1,0 +1,6 @@
+D:\Telerik\Job exercise\BullsAndCowsAppharbor\BullsAndCowsAppharbor\BullsAndCowsAppharbor\bin\BullsAndCowsAppharbor.dll.config
+D:\Telerik\Job exercise\BullsAndCowsAppharbor\BullsAndCowsAppharbor\BullsAndCowsAppharbor\bin\BullsAndCowsAppharbor.dll
+D:\Telerik\Job exercise\BullsAndCowsAppharbor\BullsAndCowsAppharbor\BullsAndCowsAppharbor\bin\BullsAndCowsAppharbor.pdb
+D:\Telerik\Job exercise\BullsAndCowsAppharbor\BullsAndCowsAppharbor\BullsAndCowsAppharbor\obj\Debug\BullsAndCowsAppharbor.csprojResolveAssemblyReference.cache
+D:\Telerik\Job exercise\BullsAndCowsAppharbor\BullsAndCowsAppharbor\BullsAndCowsAppharbor\obj\Debug\BullsAndCowsAppharbor.dll
+D:\Telerik\Job exercise\BullsAndCowsAppharbor\BullsAndCowsAppharbor\BullsAndCowsAppharbor\obj\Debug\BullsAndCowsAppharbor.pdb
