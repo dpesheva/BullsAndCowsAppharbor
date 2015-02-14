@@ -4,20 +4,20 @@
             'jquery': 'libs/jquery.min',
             'hdb': 'libs/handlebars-v1.3.0',
             'rowview': 'controls/rowview',
-            'gamehelpers': 'controls/gameHelpers',
+            'gameHelpers': 'controls/gameHelpers',
             'result': 'controls/result',
             'input': 'controls/manageInput'
         }
     } );
 
 
-    require( [ 'jquery', 'rowview', 'gamehelpers', 'input', 'result' ], function ( $, rowview, gamehelpers, input, result ) {
+    require( [ 'jquery', 'gameHelpers', 'input', 'result' ], function ( $, gameHelpers, input, result ) {
         $( function () { // equal to windows.onload
-            gamehelpers.initializeGame();
+            gameHelpers.playGame();
 
             input.attachEvent( '#input-number' );
 
-            $( '#btnRestart' ).click( gamehelpers.restart );
+            $( '#btnRestart' ).click( gameHelpers.restart );
         } );
     } );
 } )();
